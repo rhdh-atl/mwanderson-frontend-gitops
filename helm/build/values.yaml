@@ -1,0 +1,15 @@
+app:
+  name: mwanderson-poi-map-app
+  namespace: mwanderson
+  cluster: .apps.j0i9yf30.eastus2.aroapp.io
+
+git:
+  branch: main
+  repo: https://github.com/rhdh-atl/mwanderson-frontend
+  org: rhdh-atl
+  name: mwanderson-frontend
+
+image:
+  host: image-registry.openshift-image-registry.svc:5000
+  name: mwanderson/poi-map-app
+  tag: latest
